@@ -5,7 +5,7 @@ import Table from "react-bootstrap/Table";
 
 export default function TableData() {
   return (
-    <>
+    <div className="container">
       <NavBar />
       <br></br>
       <br></br>
@@ -36,6 +36,6 @@ export default function TableData() {
           </tr>
         </tbody>
       </Table>
-    </>
+    </div>
   );
 }
